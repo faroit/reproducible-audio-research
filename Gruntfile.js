@@ -37,6 +37,7 @@ module.exports = function(grunt) {
 			},
 			themes: {
 				files: {
+					'css/theme/alabs.css': 'css/theme/source/alabs.scss',
 					'css/theme/black.css': 'css/theme/source/black.scss',
 					'css/theme/white.css': 'css/theme/source/white.scss',
 					'css/theme/league.css': 'css/theme/source/league.scss',
