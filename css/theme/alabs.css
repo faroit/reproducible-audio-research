@@ -17,7 +17,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #222; }
@@ -37,7 +37,7 @@ body {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
   color: #222;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -273,14 +273,23 @@ body {
 
 .reveal .progress {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 3em;
   height: 4px; }
 
 .reveal .footer {
+  width: 100%;
+  height: 3em;
   position: absolute;
-  bottom: 1em;
-  left: 1em;
-  font-size: 0.5em; }
+  bottom: 0px;
+  padding: 1em;
+  font-size: 0.5em;
+  line-height: 2em; }
+
+.reveal .footer img {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  width: 8em; }
 
 /*********************************************
 * SLIDE NUMBER
