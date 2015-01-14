@@ -1,0 +1,9 @@
+image: bradrydzewski/node:0.10
+script:
+    - npm install
+    - npm install -g grunt-cli
+    - grunt test
+
+notify:
+    email:
+        on_failure: blame
