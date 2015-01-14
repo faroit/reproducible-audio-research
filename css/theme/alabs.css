@@ -275,23 +275,24 @@ body {
 
 .reveal .progress {
   position: absolute;
-  bottom: 3em;
-  height: 4px; }
+  bottom: 8vmax;
+  height: 0.4vh; }
 
 .reveal .footer {
   width: 100%;
-  height: 3em;
+  height: 5%;
   position: absolute;
   bottom: 0px;
   padding: 1em;
   font-size: 0.5em;
-  line-height: 2em; }
+  font-size: 1.3vmax;
+  line-height: 1.3em; }
 
 .reveal .footer img {
   position: absolute;
-  right: 50px;
-  bottom: 20px;
-  width: 8em; }
+  right: 3em;
+  bottom: 1em;
+  height: 80%; }
 
 .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   color: #000000;
