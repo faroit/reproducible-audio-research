@@ -55,7 +55,7 @@ section.has-dark-background {
 // ---------------------------------------------
 
 body {
-    border-top: 20px solid $orange;
+    border-top: 2em solid $orange;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -89,6 +89,25 @@ body {
     height: 80%;
 }
 
+.reveal .footer #middlebox,
+.reveal .footer #copyright {
+    position: absolute;
+    left: 50%;
+    margin-left: -15em;
+    bottom: 1em;
+    width: 30em;
+    height: 80%;
+    text-align: center;
+}
+
+.reveal .footer #copyright {
+    left: 0;
+    margin-left: 1em;
+    text-align: left;
+    bottom: 1em;
+}
+
+
 .reveal h3,
 .reveal h4,
 .reveal h5,
@@ -117,5 +136,9 @@ body {
 * SLIDE NUMBER
 *********************************************/
 .reveal .slide-number {
-    color: #13daec;
+    position: absolute;
+    left: 1em;
+    bottom: 1.5em;
+    font-size: 1.4vmax;
+    color: black;
 }
