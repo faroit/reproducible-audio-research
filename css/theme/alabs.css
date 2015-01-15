@@ -341,6 +341,11 @@ body {
 .reveal .cover #IIS {
   margin-left: 5em; }
 
+.reveal section img {
+  margin: 0;
+  border: 0px;
+  box-shadow: none; }
+
 /*********************************************
 * SLIDE NUMBER
 *********************************************/
