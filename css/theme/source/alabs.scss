@@ -116,6 +116,25 @@ body {
     font-weight: bold;
 }
 
+.reveal ul {
+    list-style-type: none
+}
+
+.reveal li ul, .reveal li ol {
+    margin-left: 1em;
+    list-style-type: none;
+}
+
+.reveal li li ul, .reveal li li ol {
+    margin-left: 1em;
+    list-style-type: none;
+}
+
+.reveal ul>li:before {
+    content: "■ ";
+    color: $orange;
+    font-size: 1em;
+}
 
 .reveal .cover {
     padding-top: 3em !important;
