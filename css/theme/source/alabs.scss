@@ -55,7 +55,6 @@ section.has-dark-background {
 // ---------------------------------------------
 
 body {
-    border-top: 2em solid $orange;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -67,8 +66,8 @@ body {
 
 .reveal .progress {
     position:absolute;
-    bottom: 8vmax;
-    height: 0.4vh;
+    top: 0;
+    height: 2.5vh;
 }
 
 .reveal .footer {
@@ -94,7 +93,7 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -15em;
-    bottom: 1em;
+    bottom: 0em;
     width: 30em;
     height: 80%;
     text-align: center;
