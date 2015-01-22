@@ -106,6 +106,10 @@ body {
     bottom: 1em;
 }
 
+.no-title-footer .footer {
+    opacity: 0;
+    transition: opacity 800ms ease-in-out;
+}
 
 .reveal h3,
 .reveal h4,
