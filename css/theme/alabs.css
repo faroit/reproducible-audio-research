@@ -312,6 +312,10 @@ body {
   opacity: 0;
   transition: opacity 800ms ease-in-out; }
 
+.no-progressbar .progress {
+  opacity: 0;
+  transition: opacity 800ms ease-in-out; }
+
 .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   color: #000000;
   font-weight: bold; }
