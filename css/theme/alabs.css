@@ -337,13 +337,14 @@ body {
   font-size: 1em; }
 
 .reveal .cover {
-  padding-top: 3em !important; }
+  padding-top: 4em !important; }
 
 .reveal .cover #FAU, .reveal .cover #IIS {
   border: none;
   box-shadow: none;
-  margin-top: 2em;
-  height: 1.5em; }
+  margin-top: 2.5em;
+  height: 1.5em;
+  margin-left: 4em; }
 
 .reveal .cover #IIS {
   margin-left: 5em; }
@@ -362,3 +363,7 @@ body {
   bottom: 1.5em;
   font-size: 1.4vmax;
   color: black; }
+
+.no-title-footer .reveal .slide-number {
+  opacity: 0;
+  transition: opacity 800ms ease-in-out; }
