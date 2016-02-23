@@ -68,6 +68,7 @@ body {
     position:absolute;
     top: 0;
     height: 2.5vh;
+    background-color: rgba( 0, 0, 0, 0.2 );
 }
 
 .reveal .footer {
@@ -103,7 +104,7 @@ body {
     left: 0;
     margin-left: 1em;
     text-align: left;
-    bottom: 1em;
+    bottom: -1.4em;
 }
 
 .no-title-footer .footer {
@@ -172,10 +173,11 @@ body {
 *********************************************/
 .reveal .slide-number {
     position: absolute;
-    left: 1em;
-    bottom: 1.5em;
-    font-size: 1.4vmax;
-    color: black;
+    right: 0.4em;
+    top: 0.6em;
+    color: rgba( 0, 0, 0, 0.2 );
+    font-size: 4.8vmax;
+    background-color: transparent;
 }
 
 .no-title-footer .reveal .slide-number {
