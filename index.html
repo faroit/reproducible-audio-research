@@ -4,13 +4,13 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
@@ -123,36 +123,30 @@
 				<section>
 					<h2>Table</h2>
 					<table>
-						<tr>
-							<th scope="col">Locavore</th>
-							<th>Umami</th>
-							<th>Helvetica</th>
-							<th>Vegan</th>
-						</tr>
-						<tr>
-							<th scope="row">Fingerstache</th>
-							<td>Kale</td>
-							<td>Chips</td>
-							<td>Keytar</td>
-						</tr>
-						<tr>
-							<th scope="row">Sriracha</th>
-							<td>Gluten-free</td>
-							<td>Ennui</td>
-							<td>Keffiyeh</td>
-						</tr>
-						<tr>
-							<th scope="row">Thundercats</th>
-							<td>Jean</td>
-							<td>Shorts</td>
-							<td>Biodiesel</td>
-						</tr>
-						<tr>
-							<th scope="row">Terry</th>
-							<td>Richardson</td>
-							<td>Swag</td>
-							<td>Blog</td>
-						</tr>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							</tr>
+						</tbody>
 					</table>
 					<p>Typewriter etsy messenger bag fingerstache.</p>
 				</section>
@@ -170,9 +164,11 @@
 						</code></pre>
 				</section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
 
 						Write content using inline or external Markdown.
 						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
@@ -228,7 +224,7 @@
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/math/math.js', async: true }
