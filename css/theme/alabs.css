@@ -1,11 +1,12 @@
 @charset "UTF-8";
 /**
- * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is darkblue.
+ * AudioLabs theme based on the default theme. The accent color is orange.
  *
- * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * * Copyright 2016 International Audio Laboratories Erlangen
+ * This theme is based on https://github.com/StereotypicalApps by Owen Versteeg (MIT License)
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url(../../lib/font/fira/fira-sans.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -17,7 +18,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: Helvetica, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #222; }
@@ -43,7 +44,7 @@ body {
 .reveal h6 {
   margin: 0em 0em 1em 0em;
   color: #ED8C01;
-  font-family: Helvetica, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -332,9 +333,9 @@ body {
 
 .reveal .footer #copyright {
   left: 0;
-  margin-left: 1em;
+  margin-left: 2em;
   text-align: left;
-  bottom: -1.4em; }
+  bottom: 0em; }
 
 .no-title-footer .footer {
   opacity: 0;
@@ -370,15 +371,15 @@ body {
 .reveal .cover {
   padding-top: 4em !important; }
 
-.reveal .cover #FAU, .reveal .cover #IIS {
+.reveal .cover img {
   border: none;
   box-shadow: none;
   margin-top: 2.5em;
-  height: 1.5em;
-  margin-left: 4em; }
+  height: 1.6em;
+  margin-left: 1em; }
 
-.reveal .cover #IIS {
-  margin-left: 5em; }
+.reveal .cover .logo {
+  margin-left: 1em; }
 
 .reveal section img {
   margin: 0;
@@ -394,7 +395,8 @@ body {
   top: 0.6em;
   color: rgba(0, 0, 0, 0.2);
   font-size: 4.8vmax;
-  background-color: transparent; }
+  background-color: transparent;
+  font-family: "Fira Sans", sans-serif; }
 
 .no-title-footer .reveal .slide-number {
   opacity: 0;

@@ -1,8 +1,8 @@
 /**
- * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is darkblue.
+ * AudioLabs theme based on the default theme. The accent color is orange.
  *
- * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * * Copyright 2016 International Audio Laboratories Erlangen
+ * This theme is based on https://github.com/StereotypicalApps by Owen Versteeg (MIT License)
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
@@ -11,6 +11,7 @@
 @import "../template/mixins";
 @import "../template/settings";
 // ---------------------------------------------
+@import url(../../lib/font/fira/fira-sans.css);
 
 $orange: #ED8C01;
 $grey: #707070;
@@ -23,12 +24,12 @@ $green: #6FD900;
 $backgroundColor: #fff;
 
 $mainColor: #222;
-$headingColor: ;
+$headingColor: transparent;
 
 $mainFontSize: 38px;
-$mainFont: Helvetica, sans-serif;
+$mainFont: 'Fira Sans', sans-serif;
 $headingColor: $orange;
-$headingFont: Helvetica, sans-serif;
+$headingFont: 'Fira Sans', sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
@@ -102,9 +103,9 @@ body {
 
 .reveal .footer #copyright {
     left: 0;
-    margin-left: 1em;
+    margin-left: 2em;
     text-align: left;
-    bottom: -1.4em;
+    bottom: 0em;
 }
 
 .no-title-footer .footer {
@@ -149,16 +150,16 @@ body {
     padding-top: 4em !important;
 }
 
-.reveal .cover #FAU, .reveal .cover #IIS {
+.reveal .cover img {
     border: none;
     box-shadow: none;
     margin-top: 2.5em;
-    height: 1.5em;
-    margin-left: 4em;
+    height: 1.6em;
+    margin-left: 1em;
 }
 
-.reveal .cover #IIS {
-    margin-left: 5em;
+.reveal .cover .logo {
+    margin-left: 1em;
 }
 
 .reveal section img {
@@ -178,6 +179,7 @@ body {
     color: rgba( 0, 0, 0, 0.2 );
     font-size: 4.8vmax;
     background-color: transparent;
+  	font-family: $mainFont;
 }
 
 .no-title-footer .reveal .slide-number {
