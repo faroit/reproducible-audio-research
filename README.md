@@ -2,10 +2,11 @@
 
 - Dan Ellis, Brian McFee: [REPRODUCING COMPUTATIONAL RESULTS](http://www.ee.columbia.edu/~dpwe/e6891/)
 
-## Papers about reproducable research
+## Documents about reproducable research
 
 - [Reproducible Research in Signal Processing - What, why, and how](https://infoscience.epfl.ch/record/136640)
- 
+- [Reproducible Research with R & RStudio](http://christophergandrud.github.io/RepResR-RStudio/) 
+
 ## Online Resources, databases for reproducible work
 
 - http://www.gitxiv.com
