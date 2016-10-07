@@ -63,6 +63,42 @@ Separating singing voices from music accompaniment is an important task in many 
 * Matlab: [bss_eval](http://bass-db.gforge.inria.fr/bss_eval/)
 * Python: [mir_eval](https://github.com/craffel/mir_eval)
 
+### REpeating Pattern Extraction Technique (REPET): A Simple Method for Music/Voice Separation
+Zafar Rafii, Bryan Pardo
 
-- Colin Raffel: [Large-Scale Content-Based Matching of Midi and Audio Files](http://www.gitxiv.com/posts/4foCRJSjf8mDrnigq/large-scale-content-based-matching-of-midi-and-audio-files)
-- Font, F., & Serra, X. [Tempo Estimation for Music Loops and a Simple Confidence Measure](https://github.com/ffont/ismir2016)
+Abstract—Repetition is a core principle in music. Many musical pieces are characterized by an underlying repeating structure over which varying elements are superimposed. This is especially true for pop songs where a singer often overlays varying vocals on a repeating accompaniment. On this basis, we present the REpeating Pattern Extraction Technique (REPET), a novel and simple approach for separating the repeating “background” from the non-repeating “foreground” in a mixture. The basic idea is to identify the periodically repeating segments in the audio, compare them to a repeating segment model derived from them, and extract the repeating patterns via time-frequency masking. Experiments on data sets of 1,000 song clips and 14 full-track real-world songs showed that this method can be successfully applied for music/voice separation, competing with two recent state-of-the-art approaches. Further experiments showed that REPET can also be used as a preprocessor to pitch detection algorithms to improve melody extraction.
+
+### [Paper (PDF)](http://www.zafarrafii.com/doc/Rafii-Pardo%20-%20REpeating%20Pattern%20Extraction%20Technique%20(REPET)%20A%20Simple%20Method%20for%20Music-Voice%20Separation%20-%20TALSP%202013.pdf)
+
+#### Source Code
+
+* [Matlab Implementation](http://www.zafarrafii.com/repet.html#Original_REPET_)
+
+#### Dataset
+
+* [MIR-1K](https://sites.google.com/site/unvoicedsoundseparation/mir-1k)
+
+#### Evaluation
+
+* Matlab: [bss_eval](http://bass-db.gforge.inria.fr/bss_eval/)
+* Python: [mir_eval](https://github.com/craffel/mir_eval)
+
+### Large-Scale Content-Based Matching of Midi and Audio Files
+Colin Raffel, Daniel P. W. Ellis
+
+MIDI files, when paired with corresponding audio record- ings, can be used as ground truth for many music infor- mation retrieval tasks. We present a system which can efficiently match and align MIDI files to entries in a large corpus of audio content based solely on content, i.e., with- out using any metadata. The core of our approach is a con- volutional network-based cross-modality hashing scheme which transforms feature matrices into sequences of vectors in a common Hamming space. Once represented in this way, we can efficiently perform large-scale dynamic time warping searches to match MIDI data to audio recordings. We evaluate our approach on the task of matching a huge corpus of MIDI files to the Million Song Dataset.
+
+#### [Download Paper (PDF)](http://colinraffel.com/publications/ismir2015large.pdf)
+
+#### Source Code
+
+* [Python Implementation](https://github.com/craffel/midi-dataset)
+
+#### Dataset
+
+* [The Lakh MIDI Dataset](http://colinraffel.com/projects/lmd)
+
+#### Tempo Estimation for Music Loops and a Simple Confidence Measure
+Font, F., & Serra, X.
+
+* [Source Code](https://github.com/ffont/ismir2016)
