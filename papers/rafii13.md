@@ -7,7 +7,8 @@ Abstract—Repetition is a core principle in music. Many musical pieces are char
 
 #### Source Code
 
-* [Matlab Implementation](http://www.zafarrafii.com/repet.html#Original_REPET_)
+* [Matlab](http://www.zafarrafii.com/repet.html#Original_REPET_)
+* [Python](https://github.com/interactiveaudiolab/nussl)
 
 #### Dataset
 
