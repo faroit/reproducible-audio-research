@@ -1,5 +1,5 @@
 # Audio Processing Seminar: Reproducible Research
-__Supervisors__ @faroit, @stefan-balke, @nils-werner
+__Supervisors__ @faroit, @nils-werner
 
 ## List of Papers
 
