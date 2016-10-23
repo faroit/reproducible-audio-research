@@ -7,7 +7,7 @@
 		<title>reveal.js – The HTML Presentation Framework</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="AudioLabs Author">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -15,6 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Load custom Alabs theme -->
 		<link rel="stylesheet" href="css/theme/alabs.css" id="theme">
 
 		<!-- Code syntax highlighting -->
@@ -40,7 +42,7 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section class="cover" data-background="css/theme/alabs/alabs_header.jpg" data-background-repeat="no-repeat" data-background-size="100%" data-background-position="0 0"  data-state="no-title-footer no-progressbar">
+				<section class="cover" data-background="css/theme/alabs/alabs_header.jpg" data-background-repeat="no-repeat" data-background-size="100%" data-background-position="0 0" data-state="no-title-footer no-progressbar">
 					<h2>HTML5 Presentation Layout</h2>
 					<h3>A nice subtitle</h3>
 					<p>
@@ -51,8 +53,10 @@
 					February 21, 2014
 					</p>
 					<p>
-					<img src="css/theme/alabs/FAU_bw.svg" id="FAU" alt="">
-					<img src="css/theme/alabs/IIS_bw.svg" id="IIS" alt="">
+					<div class='logos'>
+						<img src="css/theme/alabs/FAU_bw.svg" id="FAU" class="logo" alt="">
+						<img src="css/theme/alabs/IIS_bw.svg" id="IIS" class="logo" alt="">
+					</div>
 				</section>
 
 				<section>
@@ -192,34 +196,7 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-
-		<script>
-
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: false,
-				progress: true,
-				history: true,
-				center: true,
-				slideNumber: true,
-				transition: 'none', // none/fade/slide/convex/concave/zoom
-				// use mathjax offline
-				// math: { mathjax: 'node_modules/mathjax/MathJax.js'},
-
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/math/math.js', async: true }
-				]
-			});
-
-		</script>
+		<script src="reveal-settings.js"></script>
 
 	</body>
 </html>

@@ -19,7 +19,7 @@ body {
 
 .reveal {
   font-family: "Fira Sans", sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   font-weight: normal;
   color: #222; }
 
@@ -297,7 +297,7 @@ body {
   /* Opera/IE 8+ */ }
 
 .reveal .slides {
-  text-align: left; }
+  text-align: center; }
 
 .reveal .progress {
   position: absolute;
@@ -312,7 +312,6 @@ body {
   bottom: 0px;
   padding: 1em;
   font-size: 0.5em;
-  font-size: 1.3vmax;
   line-height: 1.3em; }
 
 .reveal .footer img {
@@ -329,6 +328,7 @@ body {
   bottom: 0em;
   width: 30em;
   height: 80%;
+  font-size: 1em;
   text-align: center; }
 
 .reveal .footer #copyright {
@@ -371,6 +371,9 @@ body {
 .reveal .cover {
   padding-top: 4em !important; }
 
+.reveal .cover h1, h2 {
+  margin-top: 2em; }
+
 .reveal .cover img {
   border: none;
   box-shadow: none;
@@ -378,8 +381,9 @@ body {
   height: 1.6em;
   margin-left: 1em; }
 
-.reveal .cover .logo {
-  margin-left: 1em; }
+.reveal .cover .logos {
+  margin: auto;
+  position: relative; }
 
 .reveal section img {
   margin: 0;
@@ -401,3 +405,16 @@ body {
 .no-title-footer .reveal .slide-number {
   opacity: 0;
   transition: opacity 800ms ease-in-out; }
+
+@media (max-width: 720px) {
+  .reveal .footer #middlebox {
+    display: none; }
+  .reveal .footer #copyright {
+    font-size: 2.3vmax;
+    vertical-align: baseline; }
+  .reveal .footer img {
+    height: 60%; }
+  .reveal .slide-number {
+    font-size: 4vmax; }
+  .reveal .progress {
+    height: 1.5vh; } }
