@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>Reproducible Research Seminar</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="AudioLabs Author">
@@ -18,6 +18,8 @@
 
 		<!-- Load custom Alabs theme -->
 		<link rel="stylesheet" href="css/theme/alabs.css" id="theme">
+
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/github.css">
@@ -43,152 +45,129 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section class="cover" data-background="css/theme/alabs/alabs_header.jpg" data-background-repeat="no-repeat" data-background-size="100%" data-background-position="0 0" data-state="no-title-footer no-progressbar">
-					<h2>HTML5 Presentation Layout</h2>
-					<h3>A nice subtitle</h3>
+					<h2>Reproducible Research Seminar</h2>
 					<p>
-						Firstname Lastname<br />
-						firstname.lastname@audiolabs-erlangen.de
+						Fabian-Robert Stöter<br />
+						<span style='font-size: 0.5em'>fabian-robert.stoeter@audiolabs-erlangen.de</span>
 					</p>
 					<p>
-					February 21, 2014
+						Nils Werner<br />
+						<span style='font-size: 0.5em'>nils.werner@audiolabs-erlangen.de</span>
 					</p>
+
 					<p>
 					<div class='logos'>
 						<img src="css/theme/alabs/FAU_bw.svg" id="FAU" class="logo" alt="">
 						<img src="css/theme/alabs/IIS_bw.svg" id="IIS" class="logo" alt="">
 					</div>
 				</section>
-
-				<section>
-					<h2>Header</h2>
-					<p>Typewriter etsy messenger bag <a href="">fingerstache</a>, aesthetic vinyl semiotics twee <strong>DIY</strong> forage chillwave. Thundercats ennui messenger bag, <em>squid</em> carles chillwave shoreditch pickled cliche <b>letterpress</b>. DIY beard locavore <i>occupy</i> salvia, whatever single-origin <code>coffee</code> fanny pack 3 wolf moon typewriter gastropub kale chips. Ennui keffiyeh thundercats jean shorts biodiesel. Terry richardson, swag blog locavore umami vegan helvetica. Fingerstache kale chips.</p>
-					<aside class="notes">
-						Typewriter etsy messenger bag fingerstache.
-					</aside>
+				<section data-background="images/shoulder_giant.jpg" data-state="no-title-footer">
+					<p>
+						<h1 style='margin: 0; position: absolute; top: -4em; width: 100%; background-color: rgba(0, 0, 0, 0.4); color:white; font-size: 2.4em'>
+							<blockquote style="background-color: transparent">Stand on the shoulders of giants</blockquote>
+						</h1>
+					</p>
 				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown Slide
-
-						If  you like you can enter your slide in markdown [link](http://daringfireball.net/projects/markdown/).
-					</script>
-				</section>
-
 				<section>
-					<h2>Lists</h2>
+					<h1>Describe!</h1>
 					<ul>
-						<li>Ennui keffiyeh thundercats</li>
-						<li><a href="http://www.audiolabs-erlangen.de" data-preview-link>AudioLabs Website</a></li>
-						<li>Terry richardson, swag blog
+						<li>Math: Proof</li>
+						<li>Experimental sciences: Detailed descriptions of experimental setups.</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Computational Science</h1>
+					<ul>
+						<li>Software is complex <i class="fa fa-thumbs-down fa-lg"></i></li>
+						<li>But: software is easy to duplicate <i class="fa fa-thumbs-up fa-lg"></i></li>
+					</ul>
+				</section>
+				<section data-state="no-title-footer">
+					<div class="ulist">
+	   					<img src="http://imgs.xkcd.com/comics/the_difference.png" alt="Websocket" width="40%" style="float: left">
+						<h1>Reproducibility</h1>
+						<ul style="width: 50%;">
+							<li>
+								is one of the main principles of science
+								and refers to the ability of a test or experiment to be
+								accurately reproduced, or replicated, by someone else working independently,
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h1>When is research reproducible</h1>
+					<blockquote>
+						A research work is called reproducible if all information relevant to the work, including, but not limited to, text, data and code, is made available, such that an independent researcher can reproduce the results.
+					</blockquote>
+				</section>
+				<section>
+					<h1>Six Degrees of Reproducibilty</h1>
+					<ol>
+						<li style="color: rgba(255, 0, 0, 1)">Cannot be reproduced.</li>
+						<li style="color: rgba(180, 0, 0, 1)">Cannot seem to be reproduced.</li>
+						<li style="color: rgba(100, 20, 0, 1)">Could be reproduced, requiring extreme effort.</li>
+						<li style="color: rgba(50, 50, 0, 1)">Can be reproduced, requiring considerable effort.</li>
+						<li style="color: rgba(20, 100, 0, 1)">Can be easily reproduced with at most 15 minutes of user effort, requiring some proprietary source packages.</li>
+						<li style="color: rgba(0, 180, 0, 1)">Can be easily reproduced with at most 15 min of user effort, requiring only standard, freely available tools.</li>
+					</ol>
+				</section>
+				<section>
+					<h1>Seminar Goals</h1>
+					<ul>
+						<li>Understandg the benefits of Reproducible Research</li>
+						<li>Understand the challenges of ideal practice</li>
+						<li>Reproduce results that help understanding the paper</li>
+						<li>Training in tools/techniques</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Methods</h1>
+					<ul>
+						<li>Reproducing one paper</li>
+						<li>Instead of summarizing the paper:
 							<ul>
-								<li>Locavore umami vegan helvetica</li>
-								<li>Fingerstache kale chips
-									<ul>
-										<li>Wurst
-											<ul>
-												<li>test</li>
-												<li>test</li>
-											</ul>
-										</li>
-										<li>Käse</li>
-									</ul>
-								</li>
-								<li>Keytar sriracha gluten-free</li>
+								<li>Report degree of reprodicibility</li>
+								<li>Make your report itself <em>reproducible</em></li>
+								<li>Present the results</li>
 							</ul>
 						</li>
-						<li>Before they sold out master</li>
 					</ul>
 				</section>
-
 				<section>
-					<h2>Math Typesetting</h2>
-					<p>$$F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j \omega t} \mathrm{d} t$$</p>
+					<h1>Requirements for Paper</h1>
 					<ul>
-						<li>
-							Math is rendered using MathJax
-						</li>
-						<li>
-							Math rendering requires a working internet connection
-						</li>
+						<li>Audio Related</li>
+						<li>Available Implementation (Source Code)</li>
+						<li>Publicly available dataset</li>
+						<li>Limited computational efford needed</li>
 					</ul>
 				</section>
-
-				<section>
-					<h2>Quote</h2>
-					<figure>
-						<blockquote>
-							<p>Typewriter etsy messenger bag fingerstache, aesthetic vinyl semiotics twee DIY forage chillwave. Thundercats ennui messenger bag, squid carles chillwave shoreditch pickled cliche letterpress.</p>
-						</blockquote>
-						<figcaption>Author Name</figcaption>
-					</figure>
+				<section data-markdown style="font-size: 0.5em;">
+					<script type="text/template">
+# Papers
+| Title         | Field  | Programming Language |
+| ------------- | -------| ---------------------|
+| [Maximum Filter Vibrato Suppression for Onset Detection](https://github.com/faroit/reproducible-audio-research/tree/master/papers/boeck13.md)  | MIR | Python |
+| [Tempo Estimation for Music Loops and a Simple Confidence Measure](https://github.com/faroit/reproducible-audio-research/tree/master/papers/font16.md)  | MIR | Python |
+| [Singing-Voice Separation From Monaural Recordings Using Robust Principal Component Analysis](https://github.com/faroit/reproducible-audio-research/tree/master/papers/huang12.md)  | Source Separation | Matlab/Python |
+| [Large-Scale Content-Based Matching of Midi and Audio Files](https://github.com/faroit/reproducible-audio-research/tree/master/papers/raffel15.md)  | MIR | Python |
+| [REpeating Pattern Extraction Technique (REPET): A Simple Method for Music/Voice Separation](https://github.com/faroit/reproducible-audio-research/tree/master/papers/rafii13.md)  | Source Separation | Matlab/Python |
+| [Melody Extraction from Polyphonic Music Signals: Approaches, Applications and Challenges](https://github.com/faroit/reproducible-audio-research/tree/master/papers/salamon13.md)  | MIR | Binary Application |
+					</script>
 				</section>
-
 				<section>
-					<h2>Table</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-					<p>Typewriter etsy messenger bag fingerstache.</p>
-				</section>
-
-				<section>
-					<h2>Code listing</h2>
-					<pre><code data-trim contenteditable>
-&lt;html lang="en"&gt;
-&lt;head&gt;&lt;!--Comment--&gt;
-&lt;title&gt;Shower&lt;/title&gt;
-&lt;meta charset="UTF-8"&gt;
-&lt;link rel="stylesheet" href="s/screen.css"&gt;
-&lt;script src="js/jquery.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-						</code></pre>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Contributing</h2>
+					<h1><i class="fa fa-exclamation-triangle fa-lg"></i></h1>
 					<ul>
-						<li>The source code for this template is managed on <a href="http://work.audiolabs.uni-erlangen.de:8088/templates/html5">GitLab</a></li>
-						<li>You do not need write permissions to change the code</li>
-						<li>Simply fork the repository and start hacking</li>
-						<li>Feedback, Forks and Merge Requests are welcome!</li>
-						<li>Styling is written in SASS in <code>styles/screen.scss</code></li>
-						<li>Browser-interoperability is required</li>
+						<li>It might be more work</li>
+						<li>You need great programming skills (Python, Matlab, C)</li>
+						<li>Experience with version control (Git/Github)</li>
 					</ul>
 				</section>
 			</div>
 			<div class='footer'>
 				<div id="copyright">&#9400; AudioLabs, 2016</div>
-				<div id="middlebox">A nice loooooooooooooooooong Title</div>
+				<div id="middlebox">Reproducible Research Seminar</div>
 				<img src="css/theme/alabs/alabs_logo.svg" alt="Logo" />
 			</div>
 
