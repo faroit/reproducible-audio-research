@@ -1,6 +1,8 @@
 # Audio Processing Seminar: Reproducible Research
 __Supervisors__ @faroit, @nils-werner
 
+[Watch presentation](https://faroit.github.io/reproducible-audio-research/)
+
 ## List of Papers
 
 
