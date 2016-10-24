@@ -215,3 +215,11 @@ body {
         height: 1.5vh;
     }
 }
+
+
+.reveal blockquote {
+  padding: 35px;
+  background: rgba(0, 0, 0, 0.03);
+  border-left: 10px solid rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
