@@ -1,7 +1,4 @@
-# Audio Processing Seminar: Reproducible Research
-__Supervisors__ @faroit, @nils-werner
-
-[Watch presentation](https://faroit.github.io/reproducible-audio-research/)
+# Open List of Reproducible Papers in Audio Research
 
 ## List of Papers
 
@@ -22,17 +19,15 @@ __Supervisors__ @faroit, @nils-werner
 
 - Dan Ellis, Brian McFee: [REPRODUCING COMPUTATIONAL RESULTS](http://www.ee.columbia.edu/~dpwe/e6891/)
 
-### Documents about reproducible research
+### Papers about reproducible research
 
 - [Reproducible Research in Signal Processing - What, why, and how](https://infoscience.epfl.ch/record/136640)
-- [Reproducible Research with R & RStudio](http://christophergandrud.github.io/RepResR-RStudio/)
 
 ### Online Resources, databases for reproducible work
 
 - http://www.gitxiv.com
 - http://rr.epfl.ch
 - http://soundsoftware.ac.uk/rr-prize
-- http://soundsoftware.ac.uk/handouts-guides
 
 
 ### License
