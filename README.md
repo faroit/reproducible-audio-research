@@ -12,6 +12,8 @@
 | [REpeating Pattern Extraction Technique (REPET): A Simple Method for Music/Voice Separation](papers/rafii13.md)  | Source Separation | Matlab/Python |
 | [Melody Extraction from Polyphonic Music Signals: Approaches, Applications and Challenges](papers/salamon13.md)  | MIR | Binary Application |
 | [Analyzing Chroma Feature Types for Automated Chord Recognition](papers/jiang11.md)  | MIR | Matlab |
+| [On Evaluation Validity in Music Autotagging](papers/gouyon14.md)  | MIR | Matlab |
+
 
 ## Further Resources
 
