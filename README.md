@@ -2,18 +2,16 @@
 
 ## List of Papers
 
-
-| Title         | Field  | Programming Language |
-| ------------- | -------| ---------------------|
-| [Maximum Filter Vibrato Suppression for Onset Detection](papers/boeck13.md)  | MIR | Python |
+| Title | Field | Programming Language |
+| [Maximum Filter Vibrato Suppression for Onset Detection](papers/boeck13.md) | MIR | Python |
 | [Tempo Estimation for Music Loops and a Simple Confidence Measure](papers/font16.md)  | MIR | Python |
 | [Singing-Voice Separation From Monaural Recordings Using Robust Principal Component Analysis](papers/huang12.md)  | Source Separation | Matlab/Python |
 | [Large-Scale Content-Based Matching of Midi and Audio Files](papers/raffel15.md)  | MIR | Python |
 | [REpeating Pattern Extraction Technique (REPET): A Simple Method for Music/Voice Separation](papers/rafii13.md)  | Source Separation | Matlab/Python |
 | [Melody Extraction from Polyphonic Music Signals: Approaches, Applications and Challenges](papers/salamon13.md)  | MIR | Binary Application |
 | [Analyzing Chroma Feature Types for Automated Chord Recognition](papers/jiang11.md)  | MIR | Matlab |
-| [On Evaluation Validity in Music Autotagging](papers/gouyon14.md)  | MIR | Matlab |
-
+| [On Evaluation Validity in Music Autotagging](papers/gouyon14.md) | MIR | Matlab |
+| [Feature Learning for Chord Recognition: The Deep Chroma Extractor](papers/Korzeniowski16.md)  | MIR | Python |
 
 ## Further Resources
 
