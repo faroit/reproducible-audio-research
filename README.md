@@ -3,6 +3,7 @@
 ## List of Papers
 
 | Title | Field | Programming Language |
+|-------|-------|----------------------|
 | [Maximum Filter Vibrato Suppression for Onset Detection](papers/boeck13.md) | MIR | Python |
 | [Tempo Estimation for Music Loops and a Simple Confidence Measure](papers/font16.md)  | MIR | Python |
 | [Singing-Voice Separation From Monaural Recordings Using Robust Principal Component Analysis](papers/huang12.md)  | Source Separation | Matlab/Python |
