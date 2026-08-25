@@ -13,6 +13,7 @@
 | [Analyzing Chroma Feature Types for Automated Chord Recognition](papers/jiang11.md)  | MIR | Matlab |
 | [On Evaluation Validity in Music Autotagging](papers/gouyon14.md) | MIR | Matlab |
 | [Feature Learning for Chord Recognition: The Deep Chroma Extractor](papers/korzeniowski16.md)  | MIR | Python |
+| [Awesome Deep Learning Music](https://github.com/ybayle/awesome-deep-learning-music) | Deep Learning | Various |
 | [Vid2Speech: Speech Reconstruction from Silent Video](papers/ephrat17.md)  | Deep Learning | Python |
 | [Vibrato NTF: source separation by NMF plus frequency modulation cues](papers/creager16.md)  | Source Separation | Python |
 | [Effect of Transducer Positioning in Active Noise Control](papers/ancram18.md) | Active Noise Control | Python |
